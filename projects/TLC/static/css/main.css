@@ -1,0 +1,181 @@
+html {
+    background-image: url(../images/bck.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #000;
+    background-attachment: fixed;
+}
+
+body {
+    background: transparent;
+    height: 100%;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+button.btn {
+    cursor: pointer;
+}
+button.btn[disabled] {
+    cursor: not-allowed;
+}
+
+
+.btn.btn-disabled {
+    color: #444;
+    background-color: #aaa;
+    border-color: #999;
+}
+
+.popover {
+    color: black;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+*::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, .3);
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 8px rgba(0,0,200,0.2);
+    background: rgba(80, 50, 250, .7);
+}
+
+
+.container.main {
+    background: rgba(0,0,0,.5);
+    min-height: calc(100vh - 58px);
+}
+
+#logged {
+
+}
+#logged > span {
+    line-height: 40px;
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar img {
+    width: 100%;
+    height: auto;
+}
+.avatar-sm {
+    width: 40px;
+    height: 40px;
+}
+.avatar-md {
+    width: 100px;
+    height: 100px;
+}
+.avatar.pull-left {
+    margin-right: 15px;
+}
+.avatar.pull-right {
+    margin-left: 15px;
+}
+
+
+.song {
+    background: rgba(0,0,0,.5);
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+.song .title {
+    font-size: 2em;
+    margin-bottom: -5px;
+}
+.song .sub-title {
+    margin-bottom: 10px;
+}
+.song .artist, .song .length {
+    color: #ccc;
+}
+.song .art {
+    width: 160px;
+    height: 120px;
+    float: right;
+}
+.song .art img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 450px) {
+    .song .title {
+        font-size: 1.8em;
+    }
+    .song .art {
+        width: 100%;
+        height: 100px;
+        float: none;
+        text-align: center;
+        margin-bottom: 15px;
+        display: none;
+    }
+    .song .art img {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.badge {
+    cursor: default;
+}
+
+.badge.funk {
+    background: #cd0673;
+}
+.badge.pop {
+    background: #4427cd;
+}
+.badge.rock {
+    background: #cd6a25;
+}
+.badge.indie {
+    background: #328bcd;
+}
+.badge.etc {
+    background: #53cd80;
+}
+.badge.like {
+    background: #140fcd;
+}
+
+
+.clear {
+    clear: both;
+}
+
+
+#ytplayer {
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    #logged {
+        position: relative;
+        right: auto;
+        text-align: left;
+    }
+}
+
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+    border-bottom: 6px solid #282828;
+}
+.bootstrap-datetimepicker-widget.dropdown-menu.top:after {
+    border-top: 6px solid #282828;
+}

@@ -1,0 +1,16 @@
+{
+    "SiteUrl": "http://192.168.1.15/UDany/",
+    "Debug": 1,
+    "BackTrace": 1,
+    "QueryDump": 1,
+    "MySQLBinary": "C:\\xampp\\mysql\\bin\\",
+    "DefaultProject": "main",
+    "DatabaseUser":"root",
+    "DatabasePassword":"",
+
+    "Domains": {
+        "rpg.local": "SCP",
+        "usl.local": "USL",
+        "enigma.local": "enigma"
+    }
+}

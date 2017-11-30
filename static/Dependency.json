@@ -1,0 +1,92 @@
+{
+    "ScriptsRoot": "static/js/",
+    "CssRoot": "static/css/",
+    "Dependencies": {
+
+        "libs/bootstrap.min": [
+            ".libs/bootstrap.min",
+            ".libs/bootstrap-theme.min"
+        ],
+
+        "libs/moment.min": [
+        ],
+
+        "libs/bootstrap-datetimepicker.min": [
+            ".libs/bootstrap-datetimepicker.min",
+            "libs/moment.min",
+            "libs/moment.pt-br"
+        ],
+
+        "General": [
+            "libs/jquery-2.2.0",
+            "libs/handlebars.min-latest",
+            "libs/bootstrap.min"
+        ],
+        "Session": [
+            "General"
+        ],
+        "Date": [
+            "General"
+        ],
+        "Enum": [],
+        "FormValidate": [
+            "General"
+        ],
+        "Components/StackingModal": [
+            "General"
+        ],
+        "Loading": [
+            "General",
+            ".loading"
+        ],
+
+
+        "orm/Entity": [
+            "General",
+            "Session",
+            "Date",
+            "Enum"
+        ],
+
+        "orm/EntityForm": [
+            "orm/Entity",
+            "FormValidate"
+        ],
+        "$orm/EntityForm": [
+            "orm/EntityForm",
+            "orm/EntityForm.Fields",
+            "orm/EntityForm.ReadOnly"
+        ],
+        "orm/EntityModal": [
+            "orm/Entity",
+            "$orm/EntityForm",
+            "Components/StackingModal"
+        ],
+        "orm/EntityTable": [
+            "orm/Entity",
+            "$orm/EntityForm"
+        ],
+        "#EntityStack": [
+            "orm/Entity",
+            "$orm/EntityForm",
+            "orm/EntityTable",
+            "orm/EntityModal",
+            "orm/EntityViewer"
+        ],
+        "orm/EntityCrud": [
+            "#EntityStack"
+        ],
+
+
+        "Components/autocomplete": [
+            ".Components/autocomplete"
+        ],
+        "Components/dropmenu": [
+            ".Components/dropmenu"
+        ],
+        "Components/slideshow": [
+            ".Components/slideshow",
+            "libs/jquery.mobile.custom.min"
+        ]
+    }
+}

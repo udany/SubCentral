@@ -1,0 +1,2 @@
+<?php
+Artifact::GetDataAccess()->UpdateTable();

@@ -1,0 +1,53 @@
+.drop-menu {
+    display: none;
+    position: absolute;
+    width: 250px;
+    background: #f0f0f0;
+    left: 50%;
+    border-radius: 5px;
+    z-index: 100;
+}
+.drop-menu .triangle.up {
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid #f0f0f0;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -7.5px;
+}
+.drop-menu ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+.drop-menu ul li a {
+    display: block;
+    text-decoration: none !important;
+    padding: 15px 15px;
+    border-bottom: solid 1px #ddd;
+    font-size: 13px;
+    word-wrap: break-word;
+}
+.drop-menu ul li:last-child a {
+    border-bottom: none;
+}
+.drop-menu ul li a:hover {
+    background: rgba(255, 255, 255, .4);
+}
+.drop-menu.fixed-last-option {
+    padding-bottom: 35px;
+}
+.drop-menu.fixed-last-option ul li:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f0f0f0;
+    height: 35px;
+}
+.drop-menu.fixed-last-option ul li:last-child a {
+    padding: 0;
+    line-height: 35px;
+}

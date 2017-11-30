@@ -1,0 +1,32 @@
+{
+    "Debug": 1,
+    "BackTrace": 1,
+    "QueryDump": 1,
+    "MySQLBinary": "",
+    "DefaultPage": "home",
+    "DatabaseAddress":"localhost",
+    "FacebookAppId":"256491001199895",
+    "FacebookAppSecret":"8dd75776e2674c0cd15488faf58cbbb0",
+
+    "ClassFolder": "classes/",
+
+    "EmailName": "UDany.net",
+    "Email": "contact@udany.net",
+
+    "MandrillKey": "vwcSYbyBdNSYQUKBBNf09A",
+
+    "Domains": {
+        "scp.udany.net": "SCP",
+        "usl.udany.net": "USL",
+        "rwbybrasil.com": "RWBY",
+        "panel.rwbybrasil.com": "RWBYAdmin",
+        "bsi.udany.net": "BSI",
+        "tlc.udany.net": "TLC"
+    },
+
+    "IdToHash":{
+        "alphabet": "iIQoq6DV2zBcjx4v7HTAWGhwOPkfgFa",
+        "nullAlphabet": "E9KRnSdZlYNb1em0pyu5UJMXL3rtCs",
+        "block_size": 24
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "DefaultPage": "Home",
+    "DatabaseName": "tlcentral",
+    "UsesViews": true,
+    "FacebookAppId":"256491001199895",
+    "FacebookAppSecret":"8dd75776e2674c0cd15488faf58cbbb0"
+}

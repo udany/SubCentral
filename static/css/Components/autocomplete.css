@@ -1,0 +1,28 @@
+.ac-suggestions {
+    position: absolute;
+    border: 1px solid #ddd;
+    background: #fff;
+    min-height: 15px;
+    z-index: 20000;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+    display: none;
+}
+.ac-suggestions .item {
+    padding: 5px 15px;
+    color: #666;
+    cursor: pointer;
+}
+.ac-suggestions .item.selected {
+    background: #f4f4f8;
+}
+.ac-suggestions .item:hover {
+    background: #f4f4f4;
+}
+
+.ac-input[data-selected=""] {
+}
+.ac-input:not([data-selected=""]) {
+    font-weight: bold;
+}

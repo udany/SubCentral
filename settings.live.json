@@ -1,0 +1,9 @@
+{
+    "Debug": 1,
+    "BackTrace": 1,
+    "QueryDump": 1,
+
+    "DatabaseAddress":"localhost",
+    "DatabaseUser":"root",
+    "DatabasePassword":"QjuoHUQDAO"
+}

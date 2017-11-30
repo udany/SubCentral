@@ -1,0 +1,51 @@
+{
+    "ScriptsRoot": "static/js/",
+    "CssRoot": "static/css/",
+    "Dependencies": {
+        "libs/bootstrap-datetimepicker.min": [
+            ".libs/bootstrap-datetimepicker.min",
+            "libs/moment.min",
+            "libs/moment.pt-br"
+        ],
+
+        "General": [
+            "libs/handlebars.min-latest"
+        ],
+
+        "Session": [
+            "General"
+        ],
+        "Date": [
+            "General"
+        ],
+        "Enum": [],
+        "FormValidate": [
+            "General"
+        ],
+        "Components/StackingModal": [
+            "General"
+        ],
+        "Loading": [
+            "General",
+            ".loading"
+        ],
+
+        "orm/Entity": [
+            "General",
+            "Session",
+            "Date",
+            "Enum"
+        ],
+
+        "Components/autocomplete": [
+            ".Components/autocomplete"
+        ],
+        "Components/dropmenu": [
+            ".Components/dropmenu"
+        ],
+        "Components/slideshow": [
+            ".Components/slideshow",
+            "libs/jquery.mobile.custom.min"
+        ]
+    }
+}
